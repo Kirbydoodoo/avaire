@@ -62,21 +62,21 @@ discord:
   # create one, once you have it, replace the text between the
   # quotes with your client id.
   #
-  clientId: 'YourBotClientIdShouldGoHere'
+  clientId: '573366474324967444'
 
   # This is your Discord application token, if you don't have a Discord
   # application, check the link above and follow the short guide to
   # create one, once you have it, replace the text between the
   # quotes with your token.
   #
-  token: 'YourBotTokenShouldGoHere'
+  token: 'NTczMzY2NDc0MzI0OTY3NDQ0.XMqFWg.NdoVRqmwQUz1PZkbmSESFI-HJqU'
 
   # This is the OAuth2 URL used for invite links, you should replace
   # the "<client_id>" with your Discord application client ID to
   # make the link valid so people can actually use it to invite
   # your bot to their server.
   #
-  oauth: 'https://discordapp.com/oauth2/authorize?&client_id=<client_id>&scope=bot&permissions=66186303'
+  oauth: 'https://discordapp.com/oauth2/authorize?&client_id=573366474324967444&scope=bot&permissions=66186303'
 
 #--------------------------------------------------------------------------
 # Database Information
@@ -178,13 +178,13 @@ database:
 # change the prefix for the category using the "Change Prefix" command.
 #
 
-default-prefix: '!'
+default-prefix: 'k!'
 
 # The system commands can only be used by bot administrators, bot
 # administrators are users who have their user ID in the
 # "botAccess" field in the config.
 #
-system-prefix: ';'
+system-prefix: '>'
 
 #--------------------------------------------------------------------------
 # Bot Status
@@ -202,10 +202,10 @@ system-prefix: ';'
 #
 
 playing:
-  - '!help'
-  - 'watching:avairebot.com'
-  - 'listening:%users% users'
-  - 'playing:in %guilds% servers'
+  - 'streaming:k!help | Kirby's Bot v1.0'
+  - 'streaming:inDev!'
+  - 'streaming:Main core of Blue Drake'
+  - 'streaming: %guilds% servers [STATS]'
 
 #--------------------------------------------------------------------------
 # Music Lavalink Nodes (Advanced Music Settings)
@@ -349,7 +349,7 @@ audio-quality:
 #
 
 botAccess:
-  - '88739639380172800'
+  - '323370130207801344'
 
 #--------------------------------------------------------------------------
 # Sentry.io Error Logging
@@ -409,7 +409,7 @@ web-servlet:
     # Route:
     #   GET  /leaderboard/:id
     #
-    leaderboard: true
+    leaderboard: false
 
     # Exposes a player cleanup route which for getting a list of expired user
     # XP records, any IDs returned from the route are IDs for users who are
@@ -418,7 +418,7 @@ web-servlet:
     # Route:
     #   GET  /players/cleanup
     #
-    players: true
+    players: false
 
     # Exposes multiple guild information routes, as well as cleanup routes,
     # the information routes can be used to pull information about a
@@ -517,7 +517,7 @@ apiKeys:
   #
   # Get a key at: https://dialogflow.com/docs/reference/agent
   #
-  dialogflow: ''
+  dialogflow: 'a97d3c2881df45758896a785ebea0519'
 
   # Meow API is a simple services that provides lots of cat pictures, the service
   # was custom built for Ava since the old cat picture services was having some
